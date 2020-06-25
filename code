@@ -1,0 +1,153 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+int id,bd,cd,dd,ed,fd,gd,hd;
+    printf("\n hello everyone,this is a simple message maze.It lets you choose options and the ultimate aim is to get out of it.\n");
+    printf("\n Choose any one of the following options\n");
+    printf("\n press 1 for Easy \n press 2 for Normal \n press 3 for Hard\n");
+    scanf("%d",&id);
+    switch (id)
+    {
+    case 1:
+        printf("\n welcome to the easy section\n");
+        printf("\n why did you choose easy section?\n");
+        printf("\n 1. I am a noob  \n 2. you told me to choose any,thats why \n 3. i would like to quit,fuck off \n");
+        scanf("%d",&bd);
+        switch(bd)
+        {
+        case 1:
+
+            printf("\n yes,i know that you are a noob,nothing new in that,try again\n");
+            break;
+        case 2:
+            printf("\n wow,so agyakari,pls transfer 100rs balance to 9866893203 as well\n");
+            printf("\n1. send the money \n \n 2.dont send the money\n");
+            scanf("%d",&cd);
+            switch (cd)
+            {
+            case 1:
+                printf("\nsending money wont help,ghuss line ra dine dubai aparadi ho.\n");
+                break;
+            case 2:
+                printf("\nI knew you wouldnt send((lobi+noob=you))\n");
+                break;
+            default:
+                printf("\nhe prabhu,dekhke number type karro\n");
+            }
+            break;
+
+            case 3:
+            printf("\n ok then,you will have to answer my questions first\n");
+            printf("\nthe question is how does an alien look like?\n");
+            printf("\n 1.i havent seen one\n 2.like jaadu of koi mil gaya\n 3.wait,let me grab a mirror\n");
+            scanf("%d",&dd);
+            switch (dd)
+            {
+           case 1:
+            printf("\nsorry wrong ans,try again\n");
+            break;
+           case 2:
+            printf("\n no lying pls\n");
+            break;
+           case 3:
+            printf("\nthats like a good person,i will grant you the pass to medium section now,feel free to access it and finish the game\n");
+            break;
+           default:
+            printf("\ndekhke number type karr\n");
+            }
+            break;
+            default:
+                printf("\ndekhke number type karr re\n");
+                }
+           break;
+
+
+
+
+    case 2:
+        printf("\n welcome to the medium section\n");
+        printf("\nhave you already passed easy section\n");
+        printf("\n1.Yes \n \n 2.No \n");
+        scanf("%d",&ed);
+        switch (ed)
+        {
+        case 1:
+            printf("\nok lets begin for the medium diffuculty\n");
+            printf("\nWhat has head and tail but no body\n");
+            printf("\n 1.HTML script \n 2.coin \n 3.Me,cause i am an alien  ");
+            scanf("%d",&fd);
+            switch (fd)
+            {
+            case 1:
+                printf("\nJoin HTML classes.\n");
+                break;
+            case 2:
+                printf("\nthis was just the beginning,dont flatter yourself\n");
+                printf("\n WHat has two legs two hands but doesn't have brain");
+                printf("\n 1. aiestermanio \n 2.philadelphiost \n 3.obviously me ");
+                scanf("%d",&gd);
+                switch (gd)
+                {
+                case 1:
+                    printf("\nI dont think this even exist,you know the answer is the third option,dont bother to chosse any other.");
+                    break;
+                case 2:
+                    printf("\nseriously?i guess the answer is number 3");
+                    break;
+                case 3:
+                    printf("\ni hope you got this correct in the first try.");
+                    printf("\nwhat would you do if you see a fox running towards your friend?");
+                    printf("\n 1.i will kill it \n 2.i will warn my friend about it \n 3.i will stop chasing my friend,cause you know i am the fox");
+                    scanf("%d",&hd);
+                    switch (hd)
+                    {
+                    case 1:
+                        printf("salmaan khan banna manlacha kya?");
+                        break;
+                    case 2:
+                        printf("while running,i guess he cant hear you");
+                        break;
+                    case 3:
+                        printf("option dekhne bitikkai choose gareko ta haina ni?");
+                        printf("this much for the medium section,welcome to the hard section ");
+                        break;
+                    default:
+                        printf("lodu option her ramrari");
+                        break;
+
+                    }
+                    break;
+                default:
+                    printf("\nabe lodu,dekhke option choose karo");
+                    break;
+                }
+                break;
+            case 3:
+                printf("yes,you are an alien but aliens do have body and you need a brain");
+                break;
+            default:
+                printf("anpad gwach,herera number thich");
+                break;
+            }
+            break;
+        case 2:
+            printf("\nfirst complete the easy part and then come here\n");
+            break;
+        default:
+            printf("\nchoose between 1 and 2\n");
+            }
+          break;
+
+
+
+    case 3:
+        printf("\n welcome to the hard section\n");
+         break;
+
+    default:
+        printf("\n dekhke number type karr re kutriya\n");
+    }
+    getch();
+
+}
